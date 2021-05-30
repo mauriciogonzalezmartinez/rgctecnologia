@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*estilos generales para el sitio web*/
+body{
+    background:#3a3d47; /*color hexadecimal*/
+    font-family:verdana; /*estilo de fuente*/
+}
+/*estilos generales para el contenido del sitio web*/
+.container{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+/*estilos para el encabezado*/
+.superior{
+    background: #1551a1;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+/*estilos para el menu*/
+.menu{
+    float: left;
+    padding: 50px;
+    font-size: 20px; /*tamaño de la fuente*/
+}
+.opciones li{
+    float: left;
+    list-style: none;
+}
+        .opciones li a {
+            color: white;
+            padding: 25px;
+            text-decoration: none;
+            border: 1px solid white;
+          }
+          .opciones li a:hover {
+            background: #0d356a;
+          }
+          /*ESTILOS PARA SLIDER O IMAGENES EN MOVIMIENTO*/
+          .slider {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .slider ul {
+            display: flex;
+            padding: 0;
+            width: 500%;
+            animation: cambio 16s infinite alternate;
+        }
+        .slider li {
+            width: 100%;
+            list-style: none;
+        }
+        .slider img {
+            width: 100%;
+        }
+        @keyframes cambio {
+            0% {
+                margin-left: 0;
+            }
+            15% {
+                margin-left: 0;
+            }
+            20% {
+                margin-left: -100%;
+            }
+            35% {
+                margin-left: -100%;
+            }
+            40% {
+                margin-left: -200%;
+            }
+            55% {
+                margin-left: -200%;
+            }
+            60% {
+                margin-left: -300%;
+            }
+            75% {
+                margin-left: -300%;
+            }
+            80% {
+                margin-left: -400%;
+            }
+            100% {
+                margin-left: -400%;
+            }
+        }
+        /*ESTILOS A LOS PRODUCTOS O SERVICIOS*/
+        .cuerpo {
+            overflow: hidden;
+        }
+        .titulo {
+            text-align: center;
+            padding: 20px 0 15px 0;
+            color: #ff7600;
+            font-size: 35px;
+        }
+        .caja {
+            float: left;
+            width: 380px;
+            margin: 8px;
+            border: 1px solid;
+        }
+        .subtitulo {
+            background: #1551a1;
+        }
+        .servicios {
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        .contenido {
+            padding: 20px;
+            text-align: justify;
+        }
+        .efecto:hover {
+            opacity: 0.7;
+            cursor: pointer;
+        }
+        .boton {
+            padding: 15px 20px;
+            margin: 15px 0;
+            cursor: pointer;
+            background: #144a91;
+            color: white;
+            border-radius: 5px;
+        }
+        .boton:hover {
+            background: #0c2c57;
+        }
+
+
+
+
+
+
+
